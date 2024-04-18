@@ -1,0 +1,33 @@
+{
+  "originHash" : "56b5672a9cb61b31baba0e6d67d917656ff80bad4bd13c54a6ebd7b36206a275",
+  "pins" : [
+    {
+      "identity" : "agoraaudio_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraAudio_iOS",
+      "state" : {
+        "revision" : "1009aa185ea854f2f82ed5be1f67055ad63285d6",
+        "version" : "4.3.0"
+      }
+    },
+    {
+      "identity" : "generative-ai-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/generative-ai-swift",
+      "state" : {
+        "revision" : "9156ed7ea18def208d504ff0cf1d584f2a81399e",
+        "version" : "0.4.11"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b54598c853303a09efe16296c099314215af9a12"
+      }
+    }
+  ],
+  "version" : 3
+}

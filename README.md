@@ -1,0 +1,1 @@
+This will be a work collaboration ide where developers can collaborate in real time in python with audio. Developers will also be able to use gemini to produce python code or fix code that they have entered.

@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0EB9842BD1A01800EB0350 /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */; };
+		6E0EB9862BD1A9E800EB0350 /* DocsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */; };
+		6E0EB9882BD1AB7100EB0350 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EB9872BD1AB7100EB0350 /* config.json */; };
 		6E94E4112BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */; };
 		6E94E4132BCB19EB00E8E3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */; };
 		6E94E4152BCB19EC00E8E3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E94E4142BCB19EC00E8E3E6 /* Assets.xcassets */; };
 		6E94E4182BCB19EC00E8E3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E94E4172BCB19EC00E8E3E6 /* Preview Assets.xcassets */; };
+		6E94E4202BCB1A2900E8E3E6 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E41F2BCB1A2900E8E3E6 /* GoogleGenerativeAI */; };
+		6E94E4232BCB22DB00E8E3E6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4222BCB22DB00E8E3E6 /* PythonKit */; };
+		6E94E42A2BCD87FA00E8E3E6 /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4292BCD87FA00E8E3E6 /* AIAEC */; };
+		6E94E42C2BCD87FA00E8E3E6 /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42B2BCD87FA00E8E3E6 /* AINS */; };
+		6E94E42E2BCD87FA00E8E3E6 /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */; };
+		6E94E4302BCD87FA00E8E3E6 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */; };
+		6E94E4322BCD87FA00E8E3E6 /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0EB9822BD198B000EB0350 /* Gemini-Collaboration-IDE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gemini-Collaboration-IDE-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
+		6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsAppConfig.swift; sourceTree = "<group>"; };
+		6E0EB9872BD1AB7100EB0350 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		6E94E40D2BCB19EB00E8E3E6 /* Gemini Collaboration IDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gemini Collaboration IDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Collaboration_IDEApp.swift; sourceTree = "<group>"; };
 		6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +40,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E94E42A2BCD87FA00E8E3E6 /* AIAEC in Frameworks */,
+				6E94E4202BCB1A2900E8E3E6 /* GoogleGenerativeAI in Frameworks */,
+				6E94E4232BCB22DB00E8E3E6 /* PythonKit in Frameworks */,
+				6E94E42E2BCD87FA00E8E3E6 /* AudioBeauty in Frameworks */,
+				6E94E42C2BCD87FA00E8E3E6 /* AINS in Frameworks */,
+				6E94E4302BCD87FA00E8E3E6 /* RtcBasic in Frameworks */,
+				6E94E4322BCD87FA00E8E3E6 /* SpatialAudio in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +72,14 @@
 		6E94E40F2BCB19EB00E8E3E6 /* Gemini Collaboration IDE */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EB9872BD1AB7100EB0350 /* config.json */,
+				6E0EB9822BD198B000EB0350 /* Gemini-Collaboration-IDE-Info.plist */,
 				6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */,
 				6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */,
 				6E94E4142BCB19EC00E8E3E6 /* Assets.xcassets */,
 				6E94E4162BCB19EC00E8E3E6 /* Preview Content */,
+				6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */,
+				6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */,
 			);
 			path = "Gemini Collaboration IDE";
 			sourceTree = "<group>";
@@ -83,6 +108,15 @@
 			dependencies = (
 			);
 			name = "Gemini Collaboration IDE";
+			packageProductDependencies = (
+				6E94E41F2BCB1A2900E8E3E6 /* GoogleGenerativeAI */,
+				6E94E4222BCB22DB00E8E3E6 /* PythonKit */,
+				6E94E4292BCD87FA00E8E3E6 /* AIAEC */,
+				6E94E42B2BCD87FA00E8E3E6 /* AINS */,
+				6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */,
+				6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */,
+				6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */,
+			);
 			productName = "Gemini Collaboration IDE";
 			productReference = 6E94E40D2BCB19EB00E8E3E6 /* Gemini Collaboration IDE.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,11 @@
 				Base,
 			);
 			mainGroup = 6E94E4042BCB19EB00E8E3E6;
+			packageReferences = (
+				6E94E41E2BCB1A2900E8E3E6 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */,
+				6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */,
+			);
 			productRefGroup = 6E94E40E2BCB19EB00E8E3E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +166,7 @@
 			files = (
 				6E94E4182BCB19EC00E8E3E6 /* Preview Assets.xcassets in Resources */,
 				6E94E4152BCB19EC00E8E3E6 /* Assets.xcassets in Resources */,
+				6E0EB9882BD1AB7100EB0350 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +179,8 @@
 			files = (
 				6E94E4132BCB19EB00E8E3E6 /* ContentView.swift in Sources */,
 				6E94E4112BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift in Sources */,
+				6E0EB9862BD1A9E800EB0350 /* DocsAppConfig.swift in Sources */,
+				6E0EB9842BD1A01800EB0350 /* AgoraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +317,8 @@
 				DEVELOPMENT_TEAM = 4NFBA37TDD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gemini-Collaboration-IDE-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is needed for audio communication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,6 +327,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
+					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vmj.Gemini-Collaboration-IDE";
@@ -304,6 +353,8 @@
 				DEVELOPMENT_TEAM = 4NFBA37TDD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gemini-Collaboration-IDE-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is needed for audio communication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +363,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
+					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vmj.Gemini-Collaboration-IDE";
@@ -344,6 +400,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E94E41E2BCB1A2900E8E3E6 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.11;
+			};
+		};
+		6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraAudio_iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E94E41F2BCB1A2900E8E3E6 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E41E2BCB1A2900E8E3E6 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		6E94E4222BCB22DB00E8E3E6 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		6E94E4292BCD87FA00E8E3E6 /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AIAEC;
+		};
+		6E94E42B2BCD87FA00E8E3E6 /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AINS;
+		};
+		6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = AudioBeauty;
+		};
+		6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = RtcBasic;
+		};
+		6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			productName = SpatialAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E94E4052BCB19EB00E8E3E6 /* Project object */;
 }
