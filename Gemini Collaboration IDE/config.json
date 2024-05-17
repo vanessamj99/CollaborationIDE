@@ -1,1 +1,15 @@
-
+{
+    "uid": 1,
+    "channel": "collaborationChannel",
+    "appId": "42576d05d7c94f29af6b93bd0f8b069a",
+    "rtcToken": "007eJxSYDiWzHJ43ZPPURfeai6dZ5D5lHNqXdaJ9U/seJiyGyw3ZWxRYDAxMjU3SzEwTTFPtjRJM7JMTDNLsjROSjFIs0gyMLNMvFOimNYQyMjAmbSegZGBkYGFgZEBxGcCk8xgkgVMijAk5+fkJCblFyWWZObnOWck5uWl5jAwAAIAAP//WBko9Q==",
+    "tokenUrl": "",
+    "product": "voice",
+    "signalingToken": "",
+    "encryptionMode": 7,
+    "salt": "",
+    "cipherKey": "",
+    "proxyUrl": "",
+    "proxyType": "none",
+    "screenShareId": 10001
+}

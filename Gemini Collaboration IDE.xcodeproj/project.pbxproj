@@ -7,32 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E0EB9842BD1A01800EB0350 /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */; };
+		6E06FD642BF6FDAB008A8A36 /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E06FD632BF6FDAB008A8A36 /* ProjectManager.swift */; };
 		6E0EB9862BD1A9E800EB0350 /* DocsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */; };
 		6E0EB9882BD1AB7100EB0350 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EB9872BD1AB7100EB0350 /* config.json */; };
+		6E3EE9B92BF6FE4600E986D4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9B82BF6FE4600E986D4 /* Project.swift */; };
+		6E3EE9C32BF7006900E986D4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BA2BF7006900E986D4 /* CardView.swift */; };
+		6E3EE9C42BF7006900E986D4 /* CreateProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BB2BF7006900E986D4 /* CreateProjectView.swift */; };
+		6E3EE9C52BF7006900E986D4 /* AllProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BC2BF7006900E986D4 /* AllProjectsView.swift */; };
+		6E3EE9C62BF7006900E986D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BD2BF7006900E986D4 /* ContentView.swift */; };
+		6E3EE9C72BF7006900E986D4 /* AgoraKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BE2BF7006900E986D4 /* AgoraKitView.swift */; };
+		6E3EE9C82BF7006900E986D4 /* GeminiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9BF2BF7006900E986D4 /* GeminiView.swift */; };
+		6E3EE9C92BF7006900E986D4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9C02BF7006900E986D4 /* SignUpView.swift */; };
+		6E3EE9CA2BF7006900E986D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9C12BF7006900E986D4 /* LoginView.swift */; };
+		6E3EE9CB2BF7006900E986D4 /* JoinProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3EE9C22BF7006900E986D4 /* JoinProjectView.swift */; };
 		6E94E4112BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */; };
-		6E94E4132BCB19EB00E8E3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */; };
 		6E94E4152BCB19EC00E8E3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E94E4142BCB19EC00E8E3E6 /* Assets.xcassets */; };
 		6E94E4182BCB19EC00E8E3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E94E4172BCB19EC00E8E3E6 /* Preview Assets.xcassets */; };
 		6E94E4202BCB1A2900E8E3E6 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E41F2BCB1A2900E8E3E6 /* GoogleGenerativeAI */; };
-		6E94E4232BCB22DB00E8E3E6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4222BCB22DB00E8E3E6 /* PythonKit */; };
-		6E94E42A2BCD87FA00E8E3E6 /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4292BCD87FA00E8E3E6 /* AIAEC */; };
-		6E94E42C2BCD87FA00E8E3E6 /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42B2BCD87FA00E8E3E6 /* AINS */; };
-		6E94E42E2BCD87FA00E8E3E6 /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */; };
-		6E94E4302BCD87FA00E8E3E6 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */; };
-		6E94E4322BCD87FA00E8E3E6 /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */; };
+		6EA088502BF5ABF000F22689 /* SpecialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0884F2BF5ABF000F22689 /* SpecialButton.swift */; };
+		6EA088562BF6B3E200F22689 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA088552BF6B3E200F22689 /* AuthManager.swift */; };
+		6EA088582BF6B42B00F22689 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6EA088572BF6B42B00F22689 /* FirebaseAuth */; };
+		6EB88F3D2BD4C1C000A65C43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EB88F3C2BD4C1C000A65C43 /* GoogleService-Info.plist */; };
+		6EB88F402BD4C23D00A65C43 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F3F2BD4C23D00A65C43 /* FirebaseAnalytics */; };
+		6EB88F422BD4C23D00A65C43 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F412BD4C23D00A65C43 /* FirebaseAnalyticsOnDeviceConversion */; };
+		6EB88F442BD4C23D00A65C43 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F432BD4C23D00A65C43 /* FirebaseAnalyticsSwift */; };
+		6EB88F462BD4C23D00A65C43 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F452BD4C23D00A65C43 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		6EB88F4A2BD4C53400A65C43 /* CodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB88F492BD4C53400A65C43 /* CodeManager.swift */; };
+		6EB88F4F2BD4C7BF00A65C43 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F4E2BD4C7BF00A65C43 /* FirebaseDatabase */; };
+		6EB88F512BD4C7C800A65C43 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F502BD4C7C800A65C43 /* FirebaseDatabaseSwift */; };
+		6EB88F532BD5F37C00A65C43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F522BD5F37C00A65C43 /* FirebaseFirestore */; };
+		6EB88F552BD5F38300A65C43 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB88F542BD5F38300A65C43 /* FirebaseFirestoreSwift */; };
+		6ED50F1E2BE59E5900F39AC5 /* AllCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED50F1D2BE59E5900F39AC5 /* AllCards.swift */; };
+		6ED50F202BE6E10600F39AC5 /* binchrt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ED50F1F2BE6E10600F39AC5 /* binchrt.ttf */; };
+		6EDCBD822BE2B9C4002B209C /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 6EDCBD812BE2B9C4002B209C /* RtcBasic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E06FD632BF6FDAB008A8A36 /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
 		6E0EB9822BD198B000EB0350 /* Gemini-Collaboration-IDE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gemini-Collaboration-IDE-Info.plist"; sourceTree = SOURCE_ROOT; };
-		6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
 		6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsAppConfig.swift; sourceTree = "<group>"; };
 		6E0EB9872BD1AB7100EB0350 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		6E3EE9B82BF6FE4600E986D4 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		6E3EE9BA2BF7006900E986D4 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6E3EE9BB2BF7006900E986D4 /* CreateProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProjectView.swift; sourceTree = "<group>"; };
+		6E3EE9BC2BF7006900E986D4 /* AllProjectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllProjectsView.swift; sourceTree = "<group>"; };
+		6E3EE9BD2BF7006900E986D4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E3EE9BE2BF7006900E986D4 /* AgoraKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraKitView.swift; sourceTree = "<group>"; };
+		6E3EE9BF2BF7006900E986D4 /* GeminiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeminiView.swift; sourceTree = "<group>"; };
+		6E3EE9C02BF7006900E986D4 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6E3EE9C12BF7006900E986D4 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6E3EE9C22BF7006900E986D4 /* JoinProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinProjectView.swift; sourceTree = "<group>"; };
 		6E94E40D2BCB19EB00E8E3E6 /* Gemini Collaboration IDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gemini Collaboration IDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini_Collaboration_IDEApp.swift; sourceTree = "<group>"; };
-		6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E94E4142BCB19EC00E8E3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E94E4172BCB19EC00E8E3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA0884F2BF5ABF000F22689 /* SpecialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialButton.swift; sourceTree = "<group>"; };
+		6EA088552BF6B3E200F22689 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		6EB88F3C2BD4C1C000A65C43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6EB88F492BD4C53400A65C43 /* CodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeManager.swift; sourceTree = "<group>"; };
+		6ED50F1D2BE59E5900F39AC5 /* AllCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCards.swift; sourceTree = "<group>"; };
+		6ED50F1F2BE6E10600F39AC5 /* binchrt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = binchrt.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,24 +74,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E94E42A2BCD87FA00E8E3E6 /* AIAEC in Frameworks */,
 				6E94E4202BCB1A2900E8E3E6 /* GoogleGenerativeAI in Frameworks */,
-				6E94E4232BCB22DB00E8E3E6 /* PythonKit in Frameworks */,
-				6E94E42E2BCD87FA00E8E3E6 /* AudioBeauty in Frameworks */,
-				6E94E42C2BCD87FA00E8E3E6 /* AINS in Frameworks */,
-				6E94E4302BCD87FA00E8E3E6 /* RtcBasic in Frameworks */,
-				6E94E4322BCD87FA00E8E3E6 /* SpatialAudio in Frameworks */,
+				6EB88F402BD4C23D00A65C43 /* FirebaseAnalytics in Frameworks */,
+				6EB88F462BD4C23D00A65C43 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				6EB88F552BD5F38300A65C43 /* FirebaseFirestoreSwift in Frameworks */,
+				6EB88F442BD4C23D00A65C43 /* FirebaseAnalyticsSwift in Frameworks */,
+				6EB88F512BD4C7C800A65C43 /* FirebaseDatabaseSwift in Frameworks */,
+				6EB88F4F2BD4C7BF00A65C43 /* FirebaseDatabase in Frameworks */,
+				6EA088582BF6B42B00F22689 /* FirebaseAuth in Frameworks */,
+				6EB88F422BD4C23D00A65C43 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				6EB88F532BD5F37C00A65C43 /* FirebaseFirestore in Frameworks */,
+				6EDCBD822BE2B9C4002B209C /* RtcBasic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E06FD652BF6FDBD008A8A36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E3EE9B82BF6FE4600E986D4 /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6E94E4042BCB19EB00E8E3E6 = {
 			isa = PBXGroup;
 			children = (
+				6EDC08232BF6FE1200EF3E5E /* Views */,
+				6E06FD652BF6FDBD008A8A36 /* Model */,
+				6EA0885F2BF6FD0800F22689 /* Managers */,
+				6EA0884F2BF5ABF000F22689 /* SpecialButton.swift */,
+				6ED50F1F2BE6E10600F39AC5 /* binchrt.ttf */,
+				6ED50F1D2BE59E5900F39AC5 /* AllCards.swift */,
 				6E94E40F2BCB19EB00E8E3E6 /* Gemini Collaboration IDE */,
 				6E94E40E2BCB19EB00E8E3E6 /* Products */,
+				6EB88F4B2BD4C5F200A65C43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,13 +125,12 @@
 		6E94E40F2BCB19EB00E8E3E6 /* Gemini Collaboration IDE */ = {
 			isa = PBXGroup;
 			children = (
+				6EB88F3C2BD4C1C000A65C43 /* GoogleService-Info.plist */,
 				6E0EB9872BD1AB7100EB0350 /* config.json */,
 				6E0EB9822BD198B000EB0350 /* Gemini-Collaboration-IDE-Info.plist */,
 				6E94E4102BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift */,
-				6E94E4122BCB19EB00E8E3E6 /* ContentView.swift */,
 				6E94E4142BCB19EC00E8E3E6 /* Assets.xcassets */,
 				6E94E4162BCB19EC00E8E3E6 /* Preview Content */,
-				6E0EB9832BD1A01800EB0350 /* AgoraManager.swift */,
 				6E0EB9852BD1A9E800EB0350 /* DocsAppConfig.swift */,
 			);
 			path = "Gemini Collaboration IDE";
@@ -90,6 +142,39 @@
 				6E94E4172BCB19EC00E8E3E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EA0885F2BF6FD0800F22689 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB88F492BD4C53400A65C43 /* CodeManager.swift */,
+				6EA088552BF6B3E200F22689 /* AuthManager.swift */,
+				6E06FD632BF6FDAB008A8A36 /* ProjectManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6EB88F4B2BD4C5F200A65C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EDC08232BF6FE1200EF3E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E3EE9BE2BF7006900E986D4 /* AgoraKitView.swift */,
+				6E3EE9BC2BF7006900E986D4 /* AllProjectsView.swift */,
+				6E3EE9BA2BF7006900E986D4 /* CardView.swift */,
+				6E3EE9BD2BF7006900E986D4 /* ContentView.swift */,
+				6E3EE9BB2BF7006900E986D4 /* CreateProjectView.swift */,
+				6E3EE9BF2BF7006900E986D4 /* GeminiView.swift */,
+				6E3EE9C22BF7006900E986D4 /* JoinProjectView.swift */,
+				6E3EE9C12BF7006900E986D4 /* LoginView.swift */,
+				6E3EE9C02BF7006900E986D4 /* SignUpView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +195,16 @@
 			name = "Gemini Collaboration IDE";
 			packageProductDependencies = (
 				6E94E41F2BCB1A2900E8E3E6 /* GoogleGenerativeAI */,
-				6E94E4222BCB22DB00E8E3E6 /* PythonKit */,
-				6E94E4292BCD87FA00E8E3E6 /* AIAEC */,
-				6E94E42B2BCD87FA00E8E3E6 /* AINS */,
-				6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */,
-				6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */,
-				6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */,
+				6EB88F3F2BD4C23D00A65C43 /* FirebaseAnalytics */,
+				6EB88F412BD4C23D00A65C43 /* FirebaseAnalyticsOnDeviceConversion */,
+				6EB88F432BD4C23D00A65C43 /* FirebaseAnalyticsSwift */,
+				6EB88F452BD4C23D00A65C43 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				6EB88F4E2BD4C7BF00A65C43 /* FirebaseDatabase */,
+				6EB88F502BD4C7C800A65C43 /* FirebaseDatabaseSwift */,
+				6EB88F522BD5F37C00A65C43 /* FirebaseFirestore */,
+				6EB88F542BD5F38300A65C43 /* FirebaseFirestoreSwift */,
+				6EDCBD812BE2B9C4002B209C /* RtcBasic */,
+				6EA088572BF6B42B00F22689 /* FirebaseAuth */,
 			);
 			productName = "Gemini Collaboration IDE";
 			productReference = 6E94E40D2BCB19EB00E8E3E6 /* Gemini Collaboration IDE.app */;
@@ -147,8 +236,8 @@
 			mainGroup = 6E94E4042BCB19EB00E8E3E6;
 			packageReferences = (
 				6E94E41E2BCB1A2900E8E3E6 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
-				6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */,
-				6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */,
+				6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6EDCBD802BE2B9C4002B209C /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
 			);
 			productRefGroup = 6E94E40E2BCB19EB00E8E3E6 /* Products */;
 			projectDirPath = "";
@@ -165,8 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E94E4182BCB19EC00E8E3E6 /* Preview Assets.xcassets in Resources */,
+				6EB88F3D2BD4C1C000A65C43 /* GoogleService-Info.plist in Resources */,
 				6E94E4152BCB19EC00E8E3E6 /* Assets.xcassets in Resources */,
 				6E0EB9882BD1AB7100EB0350 /* config.json in Resources */,
+				6ED50F202BE6E10600F39AC5 /* binchrt.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +268,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E94E4132BCB19EB00E8E3E6 /* ContentView.swift in Sources */,
+				6EA088502BF5ABF000F22689 /* SpecialButton.swift in Sources */,
+				6E3EE9C92BF7006900E986D4 /* SignUpView.swift in Sources */,
+				6E3EE9C72BF7006900E986D4 /* AgoraKitView.swift in Sources */,
+				6E3EE9C32BF7006900E986D4 /* CardView.swift in Sources */,
+				6E3EE9C62BF7006900E986D4 /* ContentView.swift in Sources */,
+				6EA088562BF6B3E200F22689 /* AuthManager.swift in Sources */,
 				6E94E4112BCB19EB00E8E3E6 /* Gemini_Collaboration_IDEApp.swift in Sources */,
+				6E3EE9C52BF7006900E986D4 /* AllProjectsView.swift in Sources */,
 				6E0EB9862BD1A9E800EB0350 /* DocsAppConfig.swift in Sources */,
-				6E0EB9842BD1A01800EB0350 /* AgoraManager.swift in Sources */,
+				6ED50F1E2BE59E5900F39AC5 /* AllCards.swift in Sources */,
+				6E3EE9CB2BF7006900E986D4 /* JoinProjectView.swift in Sources */,
+				6E3EE9C82BF7006900E986D4 /* GeminiView.swift in Sources */,
+				6E3EE9C42BF7006900E986D4 /* CreateProjectView.swift in Sources */,
+				6EB88F4A2BD4C53400A65C43 /* CodeManager.swift in Sources */,
+				6E3EE9B92BF6FE4600E986D4 /* Project.swift in Sources */,
+				6E3EE9CA2BF7006900E986D4 /* LoginView.swift in Sources */,
+				6E06FD642BF6FDAB008A8A36 /* ProjectManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +420,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Gemini Collaboration IDE/Preview Content\"";
 				DEVELOPMENT_TEAM = 4NFBA37TDD;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gemini-Collaboration-IDE-Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is needed for audio communication";
@@ -334,6 +439,10 @@
 					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vmj.Gemini-Collaboration-IDE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -352,6 +461,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Gemini Collaboration IDE/Preview Content\"";
 				DEVELOPMENT_TEAM = 4NFBA37TDD;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gemini-Collaboration-IDE-Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is needed for audio communication";
@@ -370,6 +480,10 @@
 					"$(PROJECT_DIR)/Gemini\\ Collaboration\\ IDE",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "vmj.Gemini-Collaboration-IDE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -410,20 +524,20 @@
 				minimumVersion = 0.4.11;
 			};
 		};
-		6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+		6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pvieito/PythonKit.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AgoraIO/AgoraAudio_iOS";
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.3.0;
+				minimumVersion = 10.24.0;
+			};
+		};
+		6EDCBD802BE2B9C4002B209C /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -434,35 +548,55 @@
 			package = 6E94E41E2BCB1A2900E8E3E6 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
 			productName = GoogleGenerativeAI;
 		};
-		6E94E4222BCB22DB00E8E3E6 /* PythonKit */ = {
+		6EA088572BF6B42B00F22689 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4212BCB22DB00E8E3E6 /* XCRemoteSwiftPackageReference "PythonKit" */;
-			productName = PythonKit;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
-		6E94E4292BCD87FA00E8E3E6 /* AIAEC */ = {
+		6EB88F3F2BD4C23D00A65C43 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
-			productName = AIAEC;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
-		6E94E42B2BCD87FA00E8E3E6 /* AINS */ = {
+		6EB88F412BD4C23D00A65C43 /* FirebaseAnalyticsOnDeviceConversion */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
-			productName = AINS;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
 		};
-		6E94E42D2BCD87FA00E8E3E6 /* AudioBeauty */ = {
+		6EB88F432BD4C23D00A65C43 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
-			productName = AudioBeauty;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
 		};
-		6E94E42F2BCD87FA00E8E3E6 /* RtcBasic */ = {
+		6EB88F452BD4C23D00A65C43 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		6EB88F4E2BD4C7BF00A65C43 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		6EB88F502BD4C7C800A65C43 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		6EB88F522BD5F37C00A65C43 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6EB88F542BD5F38300A65C43 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB88F3E2BD4C23D00A65C43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		6EDCBD812BE2B9C4002B209C /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EDCBD802BE2B9C4002B209C /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
 			productName = RtcBasic;
-		};
-		6E94E4312BCD87FA00E8E3E6 /* SpatialAudio */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E94E4282BCD87FA00E8E3E6 /* XCRemoteSwiftPackageReference "AgoraAudio_iOS" */;
-			productName = SpatialAudio;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
