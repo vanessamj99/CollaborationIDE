@@ -27,12 +27,12 @@ struct GeminiView: View {
                                 typingEffect()
                             }
                             else if codeHelp.contains("my code"){
-                                let codeHelpEdited = codeHelp.replacingOccurrences(of: "existing code", with: "my code: \(existingCode)")
+                                let codeHelpEdited = codeHelp.replacingOccurrences(of: "my code", with: "my code: \(existingCode)")
                                 await testingText(codeRequest: codeHelpEdited)
                                 typingEffect()
                             }
                             else if codeHelp.contains("my existing code"){
-                                let codeHelpEdited = codeHelp.replacingOccurrences(of: "existing code", with: "my existing code: \(existingCode)")
+                                let codeHelpEdited = codeHelp.replacingOccurrences(of: "my existing code", with: "my existing code: \(existingCode)")
                                 await testingText(codeRequest: codeHelpEdited)
                                 typingEffect()
                             }
@@ -40,6 +40,7 @@ struct GeminiView: View {
                                 await testingText(codeRequest: codeHelp)
                                 typingEffect()
                             }
+                            text = ""
                         }
                     } label: {
                         SpecialButton(titleOfCard: "Ask for Help")
@@ -59,6 +60,12 @@ struct GeminiView: View {
         let model = GenerativeModel(name: "gemini-pro", apiKey: "")
         var prompt = ""
         if codeRequest.contains("existing code"){
+            prompt = codeRequest
+        }
+        else if codeRequest.contains("my existing code"){
+            prompt = codeRequest
+        }
+        else if codeRequest.contains("my code"){
             prompt = codeRequest
         }
         else {
