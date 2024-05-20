@@ -13,7 +13,7 @@ struct CreateProjectView: View {
         ZStack{
             Image("codingBackground").resizable().aspectRatio(contentMode: .fill).frame(minWidth: 0, maxWidth: .infinity).edgesIgnoringSafeArea(.all)
             VStack{
-                TextField("Type in the new document name", text: $documentName).frame(maxWidth: .infinity, minHeight: 50).background(Color.white).border(Color.black, width: 2).padding(10)
+                TextField("Type in the new document name", text: $documentName).frame(maxWidth: .infinity, minHeight: 50).background(Color.white).foregroundStyle(Color.black).border(Color.black, width: 2).padding(10)
                     .textInputAutocapitalization(.never)
                 
                 NavigationLink(destination: ContentView(documentName: documentName)){

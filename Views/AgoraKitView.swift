@@ -21,10 +21,12 @@ struct AgoraKitView: View {
             
             if !joinedChannel {
                 TextField("Enter channel name", text: $channelName)
-                    .background(Color.white).border(Color.black, width: 2).padding(10)
+                    .background(Color.white).foregroundStyle(Color.black).border(Color.black, width: 2).padding(10)
                     .textInputAutocapitalization(.never)
                 
-                Button(action: joinChannel) {
+                Button(action: {
+                    joinChannel()
+                }) {
                     Text(isJoining ? "Joining..." : "Join Channel")
                 }
                 .frame(height: 2)
@@ -60,6 +62,9 @@ struct AgoraKitView: View {
         joinedChannel = true
         
         agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "", delegate: nil)
+        
+        agoraKit?.setClientRole(.broadcaster)
+        
         agoraKit?.joinChannel(byToken: nil, channelId: channelName, info: nil, uid: 0) { (channel, uid, elapsed) in
             // Join channel success
             DispatchQueue.main.async { [self] in
@@ -68,6 +73,8 @@ struct AgoraKitView: View {
             }
         }
     }
+
+    
     private func toggleMicMute() {
         isMuted.toggle()
         if isMuted {

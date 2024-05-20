@@ -16,7 +16,7 @@ struct JoinProjectView: View {
                 Image("codingBackground").resizable().aspectRatio(contentMode: .fill).frame(minWidth: 0, maxWidth: .infinity).edgesIgnoringSafeArea(.all)
                 VStack{
                     Spacer()
-                    TextField("Type in an existing document name to join", text: $documentName).frame(maxWidth: .infinity, minHeight: 50).background(Color.white).border(Color.black, width: 2).padding(10)
+                    TextField("Type in an existing document name to join", text: $documentName).frame(maxWidth: .infinity, minHeight: 50).background(Color.white).foregroundColor(Color.black).border(Color.black, width: 2).padding(10)
                         .textInputAutocapitalization(.never)
                     
                         NavigationLink(destination: ContentView(documentName: documentName)){
