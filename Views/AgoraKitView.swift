@@ -61,7 +61,7 @@ struct AgoraKitView: View {
         isJoining = true
         joinedChannel = true
         
-        agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "", delegate: nil)
+        agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "2e6128e37d3a4c22bb767ee1a62ca559", delegate: nil)
         
         agoraKit?.setClientRole(.broadcaster)
         
